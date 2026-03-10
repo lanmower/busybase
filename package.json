@@ -1,0 +1,17 @@
+{
+  "name": "@lanmower/busybase",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HTTP SQLite database that feels like Supabase",
+  "main": "./src/sdk.js",
+  "bin": {
+    "busybase": "./src/server.js"
+  },
+  "scripts": {
+    "start": "bun run src/server.ts"
+  },
+  "dependencies": {},
+  "keywords": ["database", "sqlite", "supabase", "rest", "api"],
+  "author": "",
+  "license": "ISC"
+}
