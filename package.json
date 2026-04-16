@@ -10,8 +10,17 @@
   "scripts": {
     "start": "bun run src/server.ts"
   },
-  "dependencies": {},
-  "keywords": ["database", "sqlite", "supabase", "rest", "api"],
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "database",
+    "sqlite",
+    "supabase",
+    "rest",
+    "api"
+  ],
   "author": "",
   "license": "ISC"
 }
